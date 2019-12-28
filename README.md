@@ -1,4 +1,4 @@
-# causejs
+# Cause JS
 Cause JS - the JavaScript framework that looks like CSS.
 
 The first JavaScript framework of the 20s!
