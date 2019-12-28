@@ -7,9 +7,9 @@ Cause JS is the first, truly 100% declarative programming language for the brows
 
 It is an easier alternative to regular JavaScript coding. You code JavaScript like you code CSS. For those things you can't code with it, you code in native. Cause JS complements native JavaScript, so it should work with your plugins. It is faster than other frameworks too.
 
-It may sound weird, but check it out! You might be pleasantly surprised.
-
-You can find all you need here:
-https://causejs.org
-
 Plus it comes with Chrome DevTools for live editing and monitoring of actions and events!
+
+It may sound weird, but look and see for yourself! You might be pleasantly surprised.
+
+You can find it all here:
+https://causejs.org
