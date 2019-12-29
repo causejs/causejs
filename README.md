@@ -5,11 +5,28 @@ The first JavaScript framework of the 20s!
 
 Cause JS is the first, truly 100% declarative programming language for the browser.
 
-It is an easier alternative to regular JavaScript coding. You code JavaScript like you code CSS. For those things you can't code with it, you code in native. Cause JS complements native JavaScript, so it should work with your plugins. It is faster than other frameworks too.
+It comes with Chrome DevTools for real-time event editing and monitoring.
 
-Plus it comes with Chrome DevTools for live editing and monitoring of actions and events!
+Faster startup than the popular frameworks, and weighing in at 15KB with brotli compression.
 
-It may sound weird, but look and see for yourself! You might be pleasantly surprised.
+It is also fully extendable, so you can create your own language if you don't like the built-in commands.
 
-You can find it all here:
+```
+#clickMe:click {
+    alert: "Hello world!";
+}
+```
+
+Full documentation website
 https://causejs.org
+
+It works on modern browsers of the last couple of years. It won't work on IE and older browsers, and it is probably not worth polyfilling as it relies on the speed of today's querySelectorAll for its power.
+
+You can fork it and mod the core to your hearts content for use on websites, so to that extent it is open-source, and you can republish the core with your own language, but only if you include the word "causejs" in the title.
+
+If you build commands that you want to be part of the official core, let us know through the support form on our website (https://causejs.org/support.html), and we will set up an alternative language library, or include your commands in the core and give you a credit, something like that. We haven't worked it out yet.
+
+Oh - please let us know if you like it and are using it too. We don't get out much :)
+
+License notes:
+https://causejs.org/terms-and-conditions.html
