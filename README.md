@@ -26,7 +26,5 @@ You can fork it and mod the core to your hearts content for use on websites, so 
 
 If you build commands that you want to be part of the official core, let us know through the support form on our website (https://causejs.org/support.html), and we will set up an alternative language library, or include your commands in the core and give you a credit, something like that. We haven't worked it out yet.
 
-Oh - please let us know if you like it and are using it too. We don't get out much :)
-
 License notes:
 https://causejs.org/terms-and-conditions.html
