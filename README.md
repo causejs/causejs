@@ -5,7 +5,7 @@ The first JavaScript framework of the 20s!
 
 Cause JS is the first, truly 100% declarative programming language for the browser.
 
-It comes with Chrome DevTools for real-time event editing and monitoring.
+It comes with Chrome DevTools extensions for real-time event editing and monitoring.
 
 Faster startup than the popular frameworks, and weighing in at 15KB with brotli compression.
 
