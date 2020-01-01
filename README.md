@@ -15,16 +15,22 @@ Imagine you could do this to put a class on the body tag when a hamburger icon w
 
 It's very direct, right? How much easier would other things be to code? Theoretically, of course...
 
-What if there was a now language that could do this, and had loads more useful commands like this?
+What if there was now a language that could do this, and had loads more useful commands like this?
 
 How much easier would it be to write and debug code? A lot, I bet!
+
+What if you didn't have to worry about state management so much, and rely more on the DOM state with CSS selectors. This syntax would surely make that idea more practical, right?
+
+If only someone would write a language like this...
+
+(drum roll...........)
 
 Introducing Cause JS!
 
 Cause JS is the first, truly 100% declarative programming language for the browser.
 It does *not* have the hierarchical complexities of CSS, as this is a programming language, and that would be weird.
 It comes with Chrome DevTools extensions for real-time event editing and monitoring, a bit like CSS.
-I has a faster startup time than the popular frameworks, and weighs in at 15KB with brotli compression.
+It has a faster startup time than the popular frameworks, and weighs in at 15KB with brotli compression.
 
 Full documentation website
 https://causejs.org
