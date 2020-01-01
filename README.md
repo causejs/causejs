@@ -8,7 +8,7 @@ Imagine you could do this to put a class on the body tag when a hamburger icon w
 ```
 #hamburger:click {
     body {
-        add-class: showMenu;
+        add-class: .menuShowing;
     }
 }
 ```
