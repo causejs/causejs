@@ -13,7 +13,7 @@ Having at the core:
 Due to the complexity of having to integrate the core with both the extensions, and not wanting to spend all our time reviewing code, we're going to keep the development of the core and extensions in-house.
 But if you have an un-minifier and fancy a challenge, you can fork it and mod the core yourself to your heart's content for use on your own or your company's websites.
 You are allowed to reverse-engineer and hack the core around and republish in any form on github, but only if you put the word "causejs" in the title of the project.
-You are not allowed to integrate it into any browser internals in any form without our explicit consent. This understandably may annoy some people, but the alternative would annoy us more, as we have invested thousands of hours into this project for free as at time of release, and some browser manufacturers make an awful lot of money.
+You are not allowed to integrate it into any browser internals in any form without our explicit consent. We are open to negotiation on this.
 Any bug fixes in the official core or extensions should be reported to us on our support form so they can be fixed rapidly.
 
 License notes:
