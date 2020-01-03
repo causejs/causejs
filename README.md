@@ -36,14 +36,3 @@ Full documentation website
 https://causejs.org
 
 It works on modern browsers of the last couple of years. It won't work on IE and older browsers, and it is probably not worth polyfilling as it relies on the speed of today's querySelectorAll for its power. But do let us know if you find anything weird, and we'll look into it.
-
-
-Boring copyright note:
-----------------------
-
-We're going to keep the development in-house for a while, but you can fork it and mod the core to your hearts content for use on websites, so to that extent it is open-source, and we'll let you republish the core with your own version of the language, but only if you include the word "causejs" in the title. We didn't spend thousands of hours on this just to be ripped off :)
-
-If you build commands that you want to be part of the official core, let us know through the support form on our website (https://causejs.org/support.html), and we will set up an alternative language library, or include your commands in the core and give you a credit, something like that. We haven't worked it out yet.
-
-License notes:
-https://causejs.org/terms-and-conditions.html
