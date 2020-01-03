@@ -1,6 +1,9 @@
 Licence
 -------
 
+General use:
+Go ahead and download and use as you like on as many websites as you like. The language and the Elements extension are free, and that is not ever going to change, and these will continue to evolve.
+
 Having at the commands:
 You can build your own commands and submit them for integration or to make externally available.
 If you build commands that you want to be part of the official core, let us know through the support form on our website (https://causejs.org/support.html).
