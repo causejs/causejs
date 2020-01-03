@@ -30,7 +30,7 @@ Introducing Cause JS!
 Cause JS is the first, truly 100% declarative programming language for the browser.
 It does *not* have the hierarchical complexities of CSS, as this is a programming language, and that would be weird.
 It comes with Chrome DevTools extensions for real-time event editing and monitoring, a bit like CSS.
-It has a faster startup time than the popular frameworks, and weighs in at 15KB with brotli compression.
+It has a faster startup time than the popular frameworks, and weighs in at 15KB with brotli compression. It is designed to work as a companion to native JavaScript to make things simpler.
 
 Full documentation website
 https://causejs.org
