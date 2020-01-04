@@ -27,12 +27,17 @@ If only someone would write a language like this...
 
 Introducing Cause JS!
 
-Cause JS is the first, truly 100% declarative programming language for the browser.
-It does *not* have the hierarchical complexities of CSS, as this is a programming language, and that would be weird.
-It comes with Chrome DevTools extensions for real-time event editing and monitoring, a bit like CSS.
+Cause JS is the first, truly 100% declarative programming language for the browser.<br>
+It does *not* have the hierarchical complexities of CSS, as this is a programming language, and that would be weird.<br>
+It comes with Chrome DevTools extensions for real-time event editing and monitoring, a bit like CSS.<br>
 It has a faster startup time than the popular frameworks, and weighs in at 15KB with brotli compression. It is designed to work as a companion to native JavaScript to make things simpler. Oh - and you can build SPAs with it.
 
 Full documentation website
 https://causejs.org
 
 It works on modern browsers of the last couple of years. It won't work on IE and older browsers, and it is probably not worth polyfilling as it relies on the speed of today's querySelectorAll for its power. But do let us know if you find anything weird, and we'll look into it.
+
+Coming up soon in the next release...<br>
+A new direct JavaScript expressions variable type to be used in action values, components, conditionals and target selectors! You have no idea what that means - that's ok - basically, we've started to attack UI component stuff. We are going to make a clock, purely within the event flow. And it's going to be really easy. Plus you'll be able to test JavaScript expressions from within the Elements extension in real-time...<br>
+Stay tuned!
+Version 1.1.0 release date estimate: 12th January 2020, give or take a few days.
