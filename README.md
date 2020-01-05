@@ -19,9 +19,9 @@ What if there was now a language that could do this, and had loads more useful c
 
 How much easier would it be to write and debug code? A lot, I bet!
 
-What if you didn't have to worry about state management so much, and rely more on the DOM state with CSS selectors. CSS does that all the time, right? You don't have to have external state management for the state of styles, right? Theoretically, of course...
+What if you didn't have to worry about state management so much, and rely more on the DOM state with CSS selectors. CSS does that all the time, right? You don't have to have external state management for the state of styles, right?
 
-If only someone would write a language like this...
+If only there was a language like this...
 
 (drum roll...........)
 
