@@ -40,4 +40,4 @@ It works on modern browsers of the last couple of years. It won't work on IE and
 Coming up soon in the next release...<br>
 A new direct JavaScript expressions variable type to be used in action values, components, conditionals and target selectors! You have no idea what that means - that's ok - basically, we've started to attack UI component stuff. We are going to make a clock, purely within the event flow. And it's going to be really easy. Plus you'll be able to test JavaScript expressions from within the Elements extension in real-time...<br>
 Stay tuned!<br>
-Version 1.1.0 release date estimate: 12th January 2020, give or take a few days.
+Version 1.1.0 release date estimate: 5th January 2020. It was quicker to implement than we thought. Just doing final testing and sorting out the docs :)
