@@ -15,11 +15,11 @@ Imagine you could do the following to put a class on the body tag when a hamburg
 
 It's very direct, right? How much easier would other things be to code? Theoretically, of course...
 
-What if there was now a language that could do this, and had loads more useful commands like this?
-
 How much easier would it be to write and debug code? A lot, I bet!
 
 What if you didn't have to worry about state management so much, and rely more on the DOM state with CSS selectors. CSS does that all the time, right? It would be great to have a framework that just worked with the DOM, and didn't get too complicated, but be powerful enough to do what you needed it to do. And have an easy learning curve.
+
+What if there was now a language that could do this, and had loads of useful commands you could apply like CSS?
 
 (drum roll...........)
 
