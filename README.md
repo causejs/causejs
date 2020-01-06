@@ -1,5 +1,5 @@
 # Cause JS
-Cause JS - the JavaScript framework for regular websites.
+The JavaScript framework for regular websites.
 
 Imagine that CSS was extended to have more event-driven functionality than the :hover event.
 
