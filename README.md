@@ -29,8 +29,9 @@ It comes with Chrome DevTools extensions for real-time event editing and monitor
 It has a faster startup time than the popular frameworks, and weighs in at 15KB with brotli compression.<br>
 It is designed to work as a companion to native JavaScript to make things simpler.<br>
 You can also build SPAs with it.
+Old-schoolers can use it as a plug-in. New-schoolers can run it as an npm module.
 
-Full documentation website
+Full documentation website and installation instructions:
 https://causejs.org
 
 It works on modern browsers of the last couple of years. It won't work on IE and older browsers, and it is probably not worth polyfilling as it relies on the speed of today's querySelectorAll for its power. But do let us know if you find anything weird, and we'll look into it.
