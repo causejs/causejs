@@ -3,7 +3,7 @@ The JavaScript framework for regular websites.
 
 Imagine that CSS was extended to have more event-driven functionality than the :hover event.
 
-Imagine you could do this to put a class on the body tag when a hamburger icon was clicked:
+Imagine you could do the following to put a class on the body tag when a hamburger icon was clicked:
 
 ```
 #hamburger:click {
