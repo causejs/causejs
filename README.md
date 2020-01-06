@@ -28,7 +28,7 @@ It does *not* have the hierarchical complexities of CSS. It has an easy learning
 It comes with Chrome DevTools extensions for real-time event editing and monitoring, a bit like CSS.<br>
 It has a faster startup time than the popular frameworks, and weighs in at 15KB with brotli compression.<br>
 It is designed to work as a companion to native JavaScript to make things simpler.<br>
-You can also build SPAs with it.
+You can also build SPAs with it.<br>
 Old-schoolers can use it as a plug-in, just like jQuery. New-schoolers can run it as an npm module.
 
 Full documentation website and installation instructions:
