@@ -42,5 +42,4 @@ The extensions need permissions to read and write on any website. This may seem 
 Coming up soon in the next release...<br>
 A new direct JavaScript expressions variable type to be used in action values, components, conditionals and target selectors! You have no idea what that means - that's ok - basically, we've started to attack UI component stuff. We are going to make a clock, purely within the event flow. And it's going to be really easy. Plus you'll be able to test JavaScript expressions from within the Elements extension in real-time...<br>
 Stay tuned!<br>
-Version 1.1.0 release date estimate:
-The core is done, the unit tests have been completed, the website has been updated offline and the extensions have been republished as of 6th Jan. Next, Google needs to do a manual review of the extensions as they need to go live first. Once approved, which can take a day or two-ish sometimes, you will see the release!
+Version 1.1.0 release date estimate: Pending a Google manual review of the new extension updates, which needs to go live before the core is released to prevent breakage, as the core and the extensions are synced in version. Hopefully in the future Google will sort it out to review diffs in the future rather than the whole extension each time. Must be a waste of time for them. Sorry for any inconvenience.
