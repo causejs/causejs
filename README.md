@@ -1,5 +1,5 @@
 # Cause JS
-The easier JavaScript framework for regular websites.
+The JavaScript framework that looks like CSS.
 
 Imagine that CSS was extended to have more event-driven functionality than the :hover event.
 
