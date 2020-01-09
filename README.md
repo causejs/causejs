@@ -39,7 +39,7 @@ It works on modern browsers of the last couple of years. It won't work on IE and
 An important note on the Chrome extension permissions:<br>
 The extensions need permissions to read and write on any website. This may seem extreme and put some people off from downloading the extensions, understandably. The thing is, the extensions only fully initialise on sites with the development version of the Cause core loaded. You can't hack sites about without the dev version of Cause loaded. The extensions need to be able to send data back and forth from the extension to the web page and back again, and they can work on any potential website - we don't know what websites you want to use the extensions on - hence it needs full permissions. So don't be put off. Google has to do a manual review of the extensions before approving such comprehensive privileges, so they are perfectly safe to use. No data is sent anywhere outside of your browser - there are no tracking or statistical, or actually any ajax calls of any kind going on in the background. Both extensions will work offline. You can't build these sorts of extensions without having those privileges unfortunately, but please rest assured that these are bonafide extensions.
 
-Coming up soon in the next release...<br>
-A new direct JavaScript expressions variable type to be used in action values, components, conditionals and target selectors! You have no idea what that means - that's ok - basically, we've started to attack UI component stuff. We are going to make a clock, purely within the event flow. And it's going to be really easy. Plus you'll be able to test JavaScript expressions from within the Elements extension in real-time...<br>
-Stay tuned!<br>
-Version 1.1.0 release date estimate: Soon! We're just sorting out some licensing issues so we can make Cause JS fully open-source.
+News:<br>
+After getting some feedback from the community, we are in the middle of a major overhaul to the development process so we can release the code as fully open-source on the MIT license and switch to a donation model.
+We have a new release coming - JavaScript expression variables. This will go live at the same time as the open-source-ness occurs.
+Stay tuned!
