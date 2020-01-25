@@ -44,5 +44,5 @@ This will include JavaScript expressions, variables, the ability to create comma
 
 Update at of 25th January 2020:<br>
 Google, in their infinite wisdom, has taken down our extensions from the Chrome Webstore for no valid reason.<br>
-We have back-up plan in case this ever happened, so it should be fine. We'll just concentrate on Mozilla if need be.
+We have back-up plan in case this ever happened, so it should be fine. Thankfully they don't own the internet. We'll just concentrate on Mozilla if need be.
 Stay tuned.
