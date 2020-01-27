@@ -41,11 +41,11 @@ It works on modern browsers of the last couple of years. It won't work on IE and
 After getting some feedback from the community, we have completed a major overhaul to the development process so we can release the code as fully open-source (ie. not minified - so you can fork it properly) on the MIT license and switch to a donation model. This will go live with the next release. Full source code for the browser extensions will be following soon after - they need a bit of refactoring and tidy-up before they go public...
 
 ### Next release:<br>
-This will include JavaScript expressions, proper variables with scoping per component or project, the ability to create commands in the Cause config, which is really cool, one-way variable data-binding, babel versions of the core, international character set support, and further support for native web components, ie. shadow DOM and a couple of other things. We've fixed a few bugs too.<br>
-In fact, it's such a massive evolution that we're moving up to version 2.0. It shouldn't affect backward compatibility much, if at all. It's suitably called the "Terrigen" release.<br>
-New ETA, looks like a couple of weeks. Maybe a couple more weeks due to the bombshell news we received this morning, as we're going to have to make radical changes to avoid this happening in the future. See below.
+This will include JavaScript expressions, proper variables with scoping, the ability to create commands in the Cause config, one-way variable data-binding, babel versions of the core, international character set support, and further support for native web components, ie. shadow DOM commands and a couple of other things. We've fixed a few bugs too. The core is still about the same size as it was.<br>
+But it's such a massive evolution that we're moving up to version 2.0.<br>
+It's suitably called the "Terrigen" release.<br>
+ETA looks like a couple of weeks. Maybe a couple more weeks due to the bombshell news we received on Saturday morning, as we're going to have to make radical changes to not be at the mercy of random weird actions by 3rd parties. See below.
 
 ### Update at of 25th January 2020:<br>
-Google, in their infinite wisdom, has taken down our extensions from the Chrome Webstore for no valid reason.<br>
-We have a back-up plan in case this ever happened, so it should be fine. Bit annoying though.<br>
-Stay tuned.
+Google, in their infinite wisdom, has taken down our extensions from the Chrome Webstore for no valid reason. It looks like it was an automatic take-down. The extensions passed manual reviews to go live, and we thought all was ok. They lasted a month. We haven't been told why the extensions were taken down. There is nothing malicious in the code, as you will see when we fully release them open source later on in the year. As we haven't yet done any promotion for Cause (though we mentioned it once in a forum to get initial feedback and got a lot of good response and a few github stars), thankfully no one has yet downloaded the extensions (our testers use in-house uploads), so no one that is public is affected. We will not let this happen again though, so we are implementing a back-up solution that we had in reserve in case this ever happened. Then, when we do go into promotion overdrive, we can ensure a smooth ride.<br>
+Stay tuned!
