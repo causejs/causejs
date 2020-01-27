@@ -1,6 +1,5 @@
 # Cause JS
 ## The JavaScript framework that looks like CSS.
-### Modern web programming simplified
 
 Imagine that CSS was extended to have more event-driven functionality than the :hover event.
 
@@ -23,6 +22,7 @@ What if there was now a language that could do this, and had loads of useful com
 (drum roll...........)
 
 ### Introducing Cause JS!
+#### Modern web programming simplified
 
 Cause JS is the first, truly 100% declarative programming language for the browser.<br>
 It does *not* have the hierarchical complexities of CSS. It has an easy learning curve, as it looks like CSS already.<br>
