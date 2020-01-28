@@ -45,6 +45,4 @@ This will include JavaScript expressions, proper variables with scoping, the abi
 But it's such a massive evolution that we're moving up to version 2.0.<br>
 It's suitably called the "Terrigen" release.<br>
 
-### Update as of 28th January 2020:<br>
-Google took the extensions down, but I complained and they have been put back up. Hooray! This does make things easier, for now anyway. We will still be making the extensions fully open source and code visible, and will be working on Firefox versions too. We'll see what happens. We're busy beeing on the new release on the core currently, and will review our extension strategy when that is a wrap.
 Stay tuned!
