@@ -41,8 +41,9 @@ It works on modern browsers of the last couple of years. It won't work on IE and
 After getting some feedback from the community, we have completed a major overhaul to the development process so we can release the code as fully open-source (ie. not minified - so you can fork it properly) on the MIT license and switch to a donation model. This will go live with the next release. Full source code for the browser extensions will be following soon after - they need a bit of refactoring and tidy-up before they go public...
 
 ### Next major release:<br>
-This will include JavaScript expressions, proper variables with scoping, the ability to create commands in the Cause config, one-way variable data-binding, babel versions of the core, international character set support, and further support for native web components, ie. shadow DOM commands and a couple of other things. We've fixed a few bugs too. The core is still about the same size as it was.<br>
-But it's such a massive evolution that we're moving up to version 2.0.<br>
+This will include JavaScript expressions, proper variables with scoping, the ability to create commands in the Cause config, one-way data-binding, babel versions of the core, international character set support, shadow DOM, web components and a couple of other things. We've fixed a few bugs too.<br>
+We're about 65% complete as of 12 Feb. Getting the end-user syntax right is the hardest part of Cause core work. The web components and shadow DOM Cause syntax has finally been nailed down successfully after several prototyping possibilities failed (which you would appreciate is quite a feat if you have ever tried to work with web components), and we are having fun implementing this now. Maybe fun is not quite the right word...<br>
+It's such a massive evolution that we're moving up to version 2.0 with this one.<br>
 It's suitably called the "Terrigen" release.<br>
 
 Stay tuned!
