@@ -40,10 +40,10 @@ It works on modern browsers of the last couple of years. It won't work on IE and
 ### News:<br>
 After getting some feedback from the community, we have completed a major overhaul to the development process so we can release the code as fully open-source (ie. not minified - so you can fork it properly) on the MIT license and switch to a donation model. This will go live with the next release. Full source code for the browser extensions will be following soon after - they need a bit of refactoring and tidy-up before they go public...
 
-### Next major release:<br>
-This will include JavaScript expressions, proper variables with scoping, the ability to create commands in the Cause config, one-way data-binding, babel versions of the core, international character set support, shadow DOM, web components and a couple of other things. We've fixed a few bugs too.<br>
-We're about 65% complete as of 12 Feb. Getting the end-user syntax right is the hardest part of Cause core work. The web components and shadow DOM Cause syntax has finally been nailed down successfully after several prototyping possibilities failed (which you would appreciate is quite a feat if you have ever tried to work with web components), and we are having fun implementing this now. Maybe fun is not quite the right word...<br>
-It's such a massive evolution that we're moving up to version 2.0 with this one.<br>
+### Next major release imminent-ish:<br>
+This will include JavaScript expressions, scoped variables, the ability to create commands on demand in the Cause config itself, variable binding and event triggering on variable/attribute change, the equivalent of setInterval for repeat events, custom element attribute binding, babel versions of the core, international character set support, shadow DOM, components within components, and a couple of other things. We've fixed a few bugs too.<br>
+We're about 85% complete as of 19 Feb. Just wrapping up event handling from inside shadow DOM components, and that should be it for the new features. Then comes the task of updating the docs, getting sufficient examples that covers everything new, ironing out any bugs by setting up crazier unit tests offline (hopefully there shouldn't be many if any by this point), and setting up basic support for the extensions. We may release without the extensions being at full potential with the new features, but they will at least be functional...<br>
+It is such a massive evolution and a big step for the language that we're moving up to version 2.0 with this one. It is still backward-compatible, except one of the commands has been renamed which shouldn't create a headache for anyone.<br>
 It's suitably called the "Terrigen" release.<br>
 
 Stay tuned!
