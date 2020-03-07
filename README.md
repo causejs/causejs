@@ -54,7 +54,7 @@ babushka-box:draw {
 @component Box-1 shadow open {
     html {
         <div>I am in a shadow DOM tree.</div>
-        <div id="subBoxOne">{|Box-2}</div>	/* render another shadow DOM tree here */
+        <div>{|Box-2}</div>	/* render another shadow DOM tree here */
         <style>
             div {
                 font-size: 20px;
