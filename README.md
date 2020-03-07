@@ -43,6 +43,7 @@ After getting some feedback from the community, we have completed a major overha
 ### Next major release imminent-ish:<br>
 This will include JavaScript expressions, the ability to create commands on demand in the Cause config itself, variable binding and event triggering on variable/attribute change, the equivalent of setInterval for repeat events, labelling of individual actions for isolated delay cancelling, custom element attribute binding, babel versions of the core, international character set support, shadow DOM, easy variable scoping to the document scope or private shadow DOM scopes, components within components, and a couple of other things, including a proper looping syntax. We've fixed a few bugs too.<br>
 We're about 92% complete as of 7 March.<br>
+
 Here's a sneak peak of the new shadow DOM interface - DOMs within DOMs (just a small part of the interface, to give you a taste). This puts four shadow DOMs inside each other in a custom <babushka-box></babushka-box> tag. You'll notice that it is a lot easier doing it this way than in native JavaScript. A lot less waffle:
 ```
 babushka-box:draw {
@@ -107,6 +108,7 @@ babushka-box:draw {
     }
 }
 ```
+
 It is such a massive evolution and a big step for the language that we're moving up to version 2.0 with this one. It is still backward-compatible, except two commands have been renamed which shouldn't create a massive headache for anyone.<br>
 It's suitably called the "Terrigen" release, as it has the potential to create a quake or two.<br>
 
