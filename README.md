@@ -43,7 +43,7 @@ After getting some feedback from the community, we have completed a major overha
 ### Next major release imminent-ish:<br>
 This will include JavaScript expressions, scoped variables, the ability to create commands on demand in the Cause config itself, variable binding and event triggering on variable/attribute change, the equivalent of setInterval for repeat events, labelling of individual actions for isolated delay cancelling, custom element attribute binding, babel versions of the core, international character set support, shadow DOM, components within components, and a couple of other things, including @for looping! We've fixed a few bugs too.<br>
 We're about 92% complete as of 7 March.<br>
-Here's a sneak peak of the shadow DOM interface - DOMs within DOMs (just a small part of the interface, to give you a taste):
+Here's a sneak peak of the shadow DOM interface - DOMs within DOMs (just a small part of the interface, to give you a taste). This puts four shadow DOMs inside each other in a custom <babushka-box></babushka-box> tag:
 ```
 babushka-box:draw {
     create-element: babushka-box;
