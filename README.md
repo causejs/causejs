@@ -108,6 +108,6 @@ babushka-box:draw {
 }
 ```
 It is such a massive evolution and a big step for the language that we're moving up to version 2.0 with this one. It is still backward-compatible, except two commands have been renamed which shouldn't create a massive headache for anyone.<br>
-It's suitably called the "Terrigen" release.<br>
+It's suitably called the "Terrigen" release, as it has the potential to create a quake or two.<br>
 
 Stay tuned!
