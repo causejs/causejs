@@ -41,71 +41,29 @@ It works on modern browsers of the last couple of years. It won't work on IE and
 After getting some feedback from the community, we have completed a major overhaul to the development process so we can release the code as fully open-source (ie. not minified - so you can fork it properly) on the MIT license and switch to a donation model. This will go live with the next release. Full source code for the browser extensions will be following soon after - they need a bit of refactoring and tidy-up before they go public...
 
 ### Next major release imminent-ish:<br>
-This will include JavaScript expressions, the ability to create commands on demand in the Cause config itself, variable binding and event triggering on variable/attribute change, the equivalent of setInterval for repeat events, labelling of individual actions for isolated delay cancelling, custom element attribute binding, babel versions of the core, international character set support, shadow DOM, easy variable scoping to the document scope or private shadow DOM scopes, components within components, and a couple of other things, including a proper looping syntax. We've fixed a few bugs too.<br>
-We're about 92% complete as of 7 March.<br>
+This will include JavaScript expressions, the ability to create commands on demand in the Cause config itself, variable binding and event triggering on variable/attribute change, the equivalent of setInterval for repeat events, labelling of individual actions for isolated delay cancelling, custom element attribute binding, babel versions of the core, international character set support, shadow DOM (incl. templates and slots), easy variable scoping to the document scope or private shadow DOM scopes, components within components, and a couple of other things, including a proper looping syntax. We've fixed a few bugs too.<br>
+We're about 93% complete as of 9 March.<br>
 
-Here's a sneak peak of the new shadow DOM interface - DOMs within DOMs (just a small part of the interface, to give you a taste). This puts four shadow DOMs inside each other in a custom <babushka-box></babushka-box> tag. You'll notice that it is a lot easier doing it this way than in native JavaScript. A lot less waffle:
+Here's a sneak peak of the new shadow DOM interface:
+
 ```
-babushka-box:draw {
-    create-element: babushka-box;
-    render: "{|Box-1}";
+<custom-el></custom-el>
+```
+```
+custom-el:draw {
+	create-element: custom-el;
+	render: "{|myShadow}";
 }
 
-@component Box-1 shadow open {
-    html {
-        <div>I am in a shadow DOM tree.</div>
-        <div>{|Box-2}</div>	/* render another shadow DOM tree here */
-        <style>
-            div {
-                font-size: 20px;
-            }
-        </style>
-    }
-}
-
-@component Box-2 shadow open {
-    &:shadowOpen {
-        div {
-            render-after-end: "<div>{|Box-3}</div>";
-        }
-        document -> h1 {
-            render-after-end: "<h2>AKA: That\'s quite a lot of shadow DOMs.</h2>";
-        }
-        host {
-            render-before-end: "<p>You can do this as well.</p>";
-        }
-    }
-    html {
-        <div>I am in a shadow DOM tree inside a shadow DOM tree.</div>
-        <style>
-            div {
-                font-size: 18px;
-            }
-        </style>
-    }
-}
-
-@component Box-3 shadow open {
-    html {
-        <div>I am in a shadow DOM tree inside a shadow DOM tree inside a shadow DOM tree.</div>
-        <div>{|Box-4}</div>
-        <style>
-            div {
-                font-size: 16px;
-            }
-        </style>
-    }
-}
-
-@component Box-4 shadow closed {
-    html {
-        <div>I am in a shadow DOM tree inside a tree inside a tree inside a tree.</div>
-        <style>
-            div {
-                font-size: 14px;
-            }
-        </style>
-    }
+@component myShadow shadow open {
+	html {
+		<div>I am in a shadow DOM tree. Inspect in DevTools.</div>
+		<style>
+			div {
+				font-size: 20px;
+			}
+		</style>
+	}
 }
 ```
 
