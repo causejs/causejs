@@ -51,19 +51,19 @@ Here's a sneak peak of the new shadow DOM interface:
 ```
 ```
 custom-el:draw {
-	create-element: custom-el;
-	render: "{|myShadow}";
+    create-element: custom-el;
+    render: "{|myShadow}";
 }
 
 @component myShadow shadow open {
-	html {
-		<div>I am in a shadow DOM tree. Inspect in DevTools.</div>
-		<style>
-			div {
-				font-size: 20px;
-			}
-		</style>
-	}
+    html {
+        <div>I am in a shadow DOM tree. Inspect in DevTools.</div>
+        <style>
+            div {
+                font-size: 20px;
+            }
+        </style>
+    }
 }
 ```
 
