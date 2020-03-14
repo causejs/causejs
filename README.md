@@ -42,7 +42,7 @@ After getting some feedback from the community, we have completed a major overha
 
 ### Next major release imminent-ish:<br>
 This will include JavaScript expressions, the ability to create commands on demand in the Cause config itself, variable binding and event triggering on variable/attribute change, the equivalent of setInterval for repeat events, labelling of individual actions for isolated delay cancelling, custom element attribute binding, babel versions of the core, international character set support, shadow DOM (incl. templates and slots), easy variable scoping to the document scope or private shadow DOM scopes, components within components, and a couple of other things, including a proper looping syntax. We've fixed a few bugs too.<br>
-We're about 93% complete as of 9 March.<br>
+We're about 94% complete as of 14 March. Working on the last thing now - @each nested looping syntax which can wrap around multiple target selectors.<br>
 
 Here's a sneak peak of the new shadow DOM interface:
 
