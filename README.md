@@ -41,8 +41,8 @@ It works on modern browsers of the last couple of years. It won't work on IE and
 After getting some feedback from the community, we have completed a major overhaul to the development process so we can release the code as fully open-source (ie. not minified - so you can fork it properly) on the MIT license and switch to a donation model. This will go live with the next release. Full source code for the browser extensions will be following soon after - they need a bit of refactoring and tidy-up before they go public...
 
 ### Next major release imminent-ish:<br>
-This will include JavaScript expressions, the ability to create commands on demand in the Cause config itself, variable binding and event triggering on variable/attribute change, the equivalent of setInterval for repeat events, labelling of individual actions for isolated delay cancelling, custom element attribute binding, babel versions of the core, international character set support, shadow DOM (incl. templates and slots), easy variable scoping to the document scope or private shadow DOM scopes, components within components, and a couple of other things, including a proper looping syntax. We've fixed a few bugs too.<br>
-We're about 94% complete as of 14 March. Working on the last thing now - @each nested looping syntax which can wrap around multiple target selectors.<br>
+This will include JavaScript expressions, the ability to create commands on demand in the Cause config itself, variable binding and event triggering on variable/attribute change, the equivalent of setInterval for repeat events, labelling of individual actions for isolated delay cancelling, custom element attribute binding, babel versions of the core, international character set support, shadow DOM (incl. templates and slots), easy variable scoping to the document scope or private shadow DOM scopes, components within components, and a couple of other things, including a proper looping syntax (@each - similar to SASS syntax). We've fixed a few bugs too.<br>
+We're about 95% complete as of 17 March. Just the extensions and the docs to update and to fix any last minute bugs. The extensions are going to be functional pretty much as they are currently. There are so many new amazing possibilities that we can now do with the extensions, now that the core has been upgraded, that focus will be mainly on upgrading those and filling in anything missing from the core when version 2 of the core is released.<br>
 
 Here's a sneak peak of the new shadow DOM interface:
 
@@ -67,7 +67,10 @@ custom-el:draw {
 }
 ```
 
-The whole release is such a massive evolution and a big step for the language that we're moving up to version 2.0 with this one. It is still backward-compatible, except two commands have been renamed which shouldn't create a massive headache for anyone.<br>
+The whole release is such a massive evolution and a big step for the language that we're moving up to version 2.0 with this one. It is still sort-of backward-compatible-ish, except two commands have been renamed, and the component syntax has changed a little bit to allow for adding events within the component.<br>
+We'll give instructions as to what to change. It won't be nightmare, I promise :)
 It's suitably called the "Terrigen" release, as it has the potential to create a quake or two.<br>
 
 Stay tuned!
+
+PS. Cause JS development will not be affected by the coronavirus.
