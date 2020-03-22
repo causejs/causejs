@@ -45,7 +45,9 @@ This will include JavaScript expressions, the ability to create commands on dema
 
 The extensions will automatically use the code that is established to work for different core versions, so in theory they will always be backward-compatible, even if there are drastic changes to the core. The source code for Elements and Panel extensions will be published at some point soon, to give people guidance on writing extensions for Cause, and a fall-back option from the Chrome webstore for those who can handle manually extension compiling. We might charge a small fee for being able to use the Chrome webstore for installing the extensions and keeping them auto-updating. We are planning on rolling-out free Firefox extensions too if the Firefox API can handle it.<br>
 
-We're about 95% complete as of 17 March. Just the extensions and the docs to update and to fix any last minute bugs. The extensions are going to be functional pretty much as they are currently. There are so many new amazing possibilities that we can now do with the extensions, now that the core has been upgraded, that focus will be mainly on upgrading those and filling in anything missing from the core when version 2 of the core is released.<br>
+We're about 96% complete as of 22 March. Extensions are mostly back to what they were - just needs some more thrash testing, but they are looking sweet at the moment. There are so many new amazing possibilities that we can now do with the extensions, now that the core has been upgraded, that focus will be mainly on upgrading those and filling in anything missing from the core when version 2 of the core is released.
+
+We're changing the name to "Active CSS" too. You mention the word "framework" or "something JS" and developers tend to go into fits of rage swiftly followed by apathy, which is not what we want. "Active CSS" is more closely aligned to what it's all about. If anyone was going to attempt to do something similar to what we've done it would look like Cause anyway, so this may as well be a generic name rather than something that sounds more proprietary. Just need to set up the servers and update all the docs... sigh. Like there isn't a lot to do already.
 
 Here's a sneak peak of the new shadow DOM interface:
 
@@ -76,4 +78,3 @@ It's suitably called the "Terrigen" release, as it has the potential to create a
 
 Stay tuned!
 
-PS. Cause JS development will not be affected by the coronavirus.
