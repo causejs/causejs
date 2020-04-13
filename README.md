@@ -70,7 +70,7 @@ custom-el:draw {
 }
 ```
 
-The whole release is such a massive evolution and a big step for the language that we're moving up to version 2.0 with this one. It is still sort-of backward-compatible-ish, except two commands have been renamed, and the component syntax has changed a little bit to allow for adding events within the component.<br>
+The whole release is such a massive evolution and a big step for the language that we're moving up to version 2.0 with this one. The website has had a revamp to go along with the name change. It is still sort-of backward-compatible-ish, except two commands have been renamed, there are now quicker ways of doing things, and the component syntax has changed a little bit to allow for adding events within the component.<br>
 We'll give instructions as to what to change. It won't be nightmare, I promise :)
 It's suitably called the "Terrigen" release, as it has the potential to create a quake or two.<br>
 
