@@ -38,14 +38,14 @@ https://causejs.org
 It works on modern browsers of the last couple of years. It won't work on IE and older browsers, and it is probably not worth polyfilling as it relies on the speed of today's querySelector for its power.
 
 ### News:<br>
-After getting some feedback from the community, we have completed a major overhaul to the development process so we can release the code as fully open-source (ie. not minified - so you can fork it properly) on the MIT license and switch to a donation model. This will go live with the next release. Full source code for the browser extensions will be following soon after - they need a bit of refactoring and tidy-up before they go public...
+After getting some feedback from the community, we have completed a major overhaul to the development process so we can release the code as fully open-source (ie. not minified - so you can fork it properly) on the MIT license. This will go live with the next release.
 
 ### Next major release imminent-ish:<br>
-This will include JavaScript expressions, the ability to create commands on demand in the Cause config itself, variable binding and event triggering on variable/attribute change, the equivalent of setInterval for repeat events, labelling of individual actions for isolated delay cancelling, custom element attribute binding, babel versions of the core, international character set support, shadow DOM (incl. templates and slots), easy variable scoping to the document scope or private shadow DOM scopes, components within components, support for the upcoming CSS Level 4 selectors, direct conditional command use in event selectors, and a couple of other things, including a proper looping syntax (@each - similar to SASS syntax) and the ability to add straight-up CSS commands alongside the Cause commands, "&" can now be used in target selectors (need to stop adding things to version 2! That's enough!). We've fixed a few bugs too, optimized some areas, and it appears to be even faster than it was. We're also changing the name of the project to something more appropriate.<br>
+This will include JavaScript expressions, the ability to create commands on demand in the Cause config itself, variable binding and event triggering on variable/attribute change, the equivalent of setInterval for repeat events, labelling of individual actions for isolated delay cancelling, custom element attribute binding, babel versions of the core, international character set support, shadow DOM (incl. templates and slots), easy variable scoping to the document scope or private shadow DOM scopes, components within components, support for the upcoming CSS Level 4 selectors, direct conditional command use in event selectors, and a couple of other things, including a proper looping syntax (@each - similar to SASS syntax) and the ability to add straight-up CSS commands alongside the Cause commands, "&" can now be used in target selectors (need to stop adding things to version 2! That's enough!), and some other things. We've fixed a few bugs too and optimized quite a few areas.<br>
 
-The extensions now automatically use the code that is established to work for different core versions, so in theory they will always be backward-compatible, even if there are drastic changes to the core. The source code for Elements and Panel extensions will be published at some point soon, to give people guidance on writing extensions for Cause, and a fall-back option from the Chrome webstore for those who can handle manually extension compiling. We might charge a small fee for being able to use the Chrome webstore for installing the extensions and keeping them auto-updating. We are planning on rolling-out free Firefox extensions too if the Firefox API can handle it, though this won't be for a little while probably.<br>
+The extensions have been merged and now automatically use the code that is established to work for different core versions, so they should always be backward-compatible, even if there are drastic changes to the core. We will be charging a fee for the extension.<br>
 
-We're about 97.5% complete as of 12 April. Doing final testing and tweaking and fixing the odd schoolboy error. Good news - as a result of sorting out an issue to do with shadow DOM event bubbling over the last week (thanks to the Panel extension we noticed that actions in nested mixed open/closed shadow DOMs were not bubbling in the right sequence), events now have auto-detection for passive event support and the core is additionally definitely definitely faster than it was. Docs are half-done. Extensions probably 80% done. Don't lose hope - if indeed anyone is reading this and is even interested - it's looking really good. Just want to make sure it's a finished product.
+We're about 99% complete as of 2 May. Version 2 core is complete with no outstanding known bugs. Docs are complete. Awaiting shiny new logo from designer. Thrash testing the extension meanwhile. Version 2 will go live after 1) the logo arrives and 2) the extension get approved on the Chrome Webstore.
 
 Here's a sneak peak of the new shadow DOM interface:
 
@@ -58,7 +58,7 @@ custom-el:draw {
     render: "{|myShadow}";
 }
 
-@component myShadow shadow open {
+@component myShadow shadow {
     html {
         <div>I am in a shadow DOM tree. Inspect in DevTools.</div>
         <style>
@@ -70,8 +70,7 @@ custom-el:draw {
 }
 ```
 
-The whole release is such a massive evolution and a big step for the language that we're moving up to version 2.0 with this one. The website has had a revamp to go along with the name change. It is still sort-of backward-compatible-ish, except two commands have been renamed, there are now quicker ways of doing things, and the component syntax has changed a little bit to allow for adding events within the component.<br>
-We'll give instructions as to what to change. It won't be nightmare, I promise :)
+The whole release is such a massive evolution and a big step for the language that we're moving up to version 2.0 with this one. The website has had a revamp to go along with the name change. There are some breaking changes, but nothing that should cause alarm.<br>
 It's suitably called the "Terrigen" release, as it has the potential to create a quake or two.<br>
 
 Stay tuned!
