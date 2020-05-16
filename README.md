@@ -45,7 +45,7 @@ This will include JavaScript expressions, the ability to create commands on dema
 
 The extensions have been merged and now automatically use the code that is established to work for different core versions, so they should always be backward-compatible, even if there are drastic changes to the core. We will be charging a fee for the extension.<br>
 
-We're about 99% complete as of 2 May. Version 2 core is complete with no outstanding known bugs. Docs are complete. Awaiting shiny new logo from designer. Thrash testing the extension meanwhile. Version 2 will go live after 1) the logo arrives and 2) the extension get approved on the Chrome Webstore.
+Going live this weekend!
 
 Here's a sneak peak of the new shadow DOM interface:
 
